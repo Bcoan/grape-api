@@ -19,21 +19,18 @@ and run
 
 #### Create a person
 
-```curl -X POST \
-  http://localhost:9292/api/v1/people \
-  -H 'content-type: application/json' \
-  -d '{
+```curl -X POST http://localhost:9292/api/v1/people -H 'content-type: application/json' -d '{
 	"name": "Bacon",
 	"phone": "11999999999"
 }' ```
 
 #### List all people
 
-```curl -X GET http://localhost:9292/api/v1/people ```
+``` curl -X GET http://localhost:9292/api/v1/people ```
 
 #### Show person by id
 
-```curl -X GET http://localhost:9292/api/v1/people/1 ```
+``` curl -X GET http://localhost:9292/api/v1/people/1 ```
 
 ##### Delete a person
 
