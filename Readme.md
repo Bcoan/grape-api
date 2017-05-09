@@ -19,10 +19,7 @@ and run
 
 #### Create a person
 
-``` curl -X POST http://localhost:9292/api/v1/people -H 'content-type: application/json' -d '{
-	"name": "Bacon",
-	"phone": "11999999999"
-}' ```
+``` curl -X POST http://localhost:9292/api/v1/people -H 'content-type: application/json' -d '{"name":"Bacon","phone": "11999999999"}' ```
 
 #### List all people
 
