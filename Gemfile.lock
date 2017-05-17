@@ -54,6 +54,7 @@ GEM
       coderay (~> 1.1.0)
       method_source (~> 0.8.1)
       slop (~> 3.4)
+    puma (3.6.0)
     rack (2.0.1)
     rack-accept (0.4.5)
       rack (>= 0.4)
@@ -77,6 +78,7 @@ DEPENDENCIES
   grape
   otr-activerecord (~> 1.2.1)
   pry
+  puma
   rake
   sqlite3
 
